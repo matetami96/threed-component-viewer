@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Component Viewer</title>
+  </head>
+
+  <body>
+    <script>
+      const loaded3DModel = {
+        name: "end-anchor1",
+        url: "assets/LDV002 Ancre terminale 2012.stl",
+        position: [0, 0, 0],
+        scale: [0.5, 0.5, 0.5],
+        rotation: [0, 0, 0],
+        color: "grey",
+      }
+    </script>
+    <div id="single-model-viewer"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+
+</html>

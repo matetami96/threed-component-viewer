@@ -1,0 +1,30 @@
+.app-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.button-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggle-button {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.toggle-button:hover {
+	background-color: #0069d9;
+}
